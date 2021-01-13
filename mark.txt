@@ -1,0 +1,13 @@
+
+institutet = ({
+    "title" : "hfd"
+    "lonm" : 49.804128
+    "latm" : 24.066063
+    "adress" : zelena vyl
+ },{
+    "title" : "hfd"
+    "lonm" : 49.804128
+    "latm" : 24.066063
+    "adress" : zelena vyl
+}
+)
