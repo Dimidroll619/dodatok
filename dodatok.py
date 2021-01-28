@@ -1,5 +1,5 @@
 import telebot
-from telebot import types
+from telebot import TeleBot, types
 import random
 
 
@@ -30,7 +30,7 @@ markup_game.add(btn_rock, btn_scissors, btn_papper, btn_back)
 markup_ggame.add(btn_ggame,  btn_back)
 
 
-@bot.message_handler(commands=['start',])
+@bot.message_handler(commands=['start'])
 def send_welcome(message):
 	first_name = message.chat.first_name #Ім`я
 	last_name = str(message.chat.last_name) #Прізвище
